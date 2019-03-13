@@ -11,7 +11,7 @@ int y=0;
 
 void setup() {
   colorMode(RGB);
-  size(640, 480, P2D);
+  size(640, 480);
   robotImg = loadImage("img/robot.png");
   soldierImg = loadImage("img/soldier.png");
   groundhogImg = loadImage("img/groundhog.png");
