@@ -12,12 +12,12 @@ int y=0;
 void setup() {
   colorMode(RGB);
   size(640, 480, P2D);
-  robotImg = loadImage("img/robot.png");
-  soldierImg = loadImage("img/soldier.png");
-  groundhogImg = loadImage("img/groundhog.png");
-  lifeImg = loadImage("img/life.png");
-	bgImg = loadImage("img/bg.jpg");
-	soilImg = loadImage("img/soil.png");
+  robotImg = loadImage("/img/robot.png");
+  soldierImg = loadImage("/img/soldier.png");
+  groundhogImg = loadImage("/img/groundhog.png");
+  lifeImg = loadImage("/img/life.png");
+	bgImg = loadImage("/img/bg.jpg");
+	soilImg = loadImage("/img/soil.png");
   y = floor(random(2,6));
 
 }
