@@ -33,7 +33,7 @@ void draw() {
   stroke(255, 255, 0);
   strokeWeight(5);
   fill(253, 184, 19);
-  circle(590,50,120);
+  ellipse(590,50,120,120);
   
   noStroke();
   fill(124, 204, 25);
