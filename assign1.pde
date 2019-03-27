@@ -11,7 +11,7 @@ float Laserlong = 0;
 
 void setup() {
   colorMode(RGB);
-  size(640, 480, P2D);
+  size(640, 480);
   
   //Image
   robotImg = loadImage("img/robot.png");
