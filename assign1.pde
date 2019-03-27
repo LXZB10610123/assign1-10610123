@@ -64,12 +64,12 @@ void draw() {
   
   //Laser Move
   LaserX=LaserX+2;
-  Laserlong=Laserlong+1;
+  Laserlong=Laserlong+2;
   LaserX %= 150;
-  Laserlong %= 75;
+  Laserlong %= 150;
   stroke(255, 0, 0);
   strokeWeight(10);
-  line(robotX*80- LaserX-20,40+roboxY*80,robotX*80- LaserX-20-Laserlong,40+roboxY*80);
+  line(robotX*80-LaserX-20,40+roboxY*80,robotX*80- LaserX-10-Laserlong,40+roboxY*80);
    if(Laserlong >= 40){
      Laserlong=40;
    }
